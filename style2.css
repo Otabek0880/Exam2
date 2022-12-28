@@ -1,0 +1,36 @@
+.text p:nth-child(2) {
+  width: 160px;
+  height: 88px;
+  position: relative;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 88px;
+
+  letter-spacing: 3.2px;
+
+  color: #ffffff;
+  display: flex;
+}
+.text .image3 {
+  position: absolute;
+  display: inline;
+  bottom: 650px;
+}
+.p3 {
+  position: absolute;
+  width: 191px;
+  height: 88px;
+  top: 630px;
+  right: 1090px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+
+  letter-spacing: 3.2px;
+
+  color: #ffffff;
+}

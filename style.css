@@ -1,0 +1,1025 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.wrapper {
+  max-width: 100%;
+  height: 5990px;
+  background-size: 100%;
+
+  background-color: rgb(39, 36, 36);
+  margin: 0 auto;
+}
+.body {
+  background: #e5e5e5;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(./Fonts/DMSans-Bold.ttf);
+}
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0 10px;
+}
+.header {
+  width: 100%;
+  height: 119px;
+  background-color: rgb(39, 36, 36);
+  display: flex;
+  margin: 0px auto;
+}
+.header img {
+  padding: 43.08px 750.27px 43.3px 0px;
+}
+.menu {
+  margin: 46px 20px 46px 0px;
+}
+.text h1 {
+  width: 546px;
+  height: 176px;
+  margin-top: 334px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+
+  letter-spacing: 3.2px;
+
+  color: #ffffff;
+}
+.text p {
+  width: 160px;
+  height: 88px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 88px;
+  display: inline;
+  letter-spacing: 3.2px;
+
+  color: #ffffff;
+}
+.text h2 {
+  width: 191px;
+  height: 88px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+
+  letter-spacing: 3.2px;
+
+  color: #ffffff;
+}
+.text h3 {
+  width: 66px;
+  height: 24px;
+  margin-top: 90px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.text img {
+  margin-top: 16px;
+  margin-right: 17px;
+}
+.text2 {
+  display: flex;
+  gap: 25px;
+}
+.menu a:nth-child(1) {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  margin-right: 20px;
+  padding: 10px;
+}
+.part2 {
+  display: flex;
+}
+.menu a:nth-child(2) {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.menu a:nth-child(3) {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
+  margin-right: 20px;
+}
+.menu a:nth-child(4) {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.menu a:hover {
+  color: #118da8;
+  background-color: white;
+  border-radius: 15px;
+}
+.main-image {
+  width: 650px;
+  height: 873px;
+  padding: 40px 60px 93px 0px;
+  margin-right: 60px;
+  position: relative;
+}
+.image2 {
+  position: absolute;
+  left: -65px;
+  bottom: 790px;
+  width: 68px;
+  height: 74px;
+
+  margin-left: 35px;
+  margin-top: -860px;
+}
+
+.main p:nth-child(1) {
+  width: 563px;
+  height: 80px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+
+  margin-top: 93px;
+  letter-spacing: 2.88px;
+  margin-right: 470px;
+  color: #ffffff;
+}
+.main {
+  display: flex;
+  gap: 70px;
+}
+.main p:nth-child(2) {
+  width: 188px;
+  height: 51px;
+  margin-right: 70px;
+  margin-top: 124px;
+  padding: 12px 15px 12px 20px;
+  border: 1px solid #118da8;
+  background-color: #118da8;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+.main p:nth-child(2):hover {
+  color: #118da8;
+  border: 1px solid #118da8;
+  background-color: #ffffff;
+}
+.cards {
+  margin-top: 66px;
+}
+.card {
+  width: 1300px;
+  height: 545px;
+  padding: 40px 53px 40px 40px;
+
+  background: #000000;
+  border-radius: 32px;
+  display: flex;
+  gap: 53px;
+  margin-bottom: 60px;
+}
+.words p:nth-child(1) {
+  width: 73px;
+  height: 27px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #191919;
+  border-radius: 6px;
+}
+.words p:nth-child(2) {
+  width: 82px;
+  height: 27px;
+  margin-top: 48px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #118da8;
+}
+.words p:nth-child(3) {
+  width: 721px;
+  height: 141px;
+  margin-top: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+
+  letter-spacing: 2.56px;
+
+  color: #ffffff;
+}
+.words p:nth-child(4) {
+  width: 787px;
+  height: 99px;
+  margin-top: 28px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.words p:nth-child(5) {
+  width: 208px;
+  height: 51px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #118da8;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.words p:nth-child(5):hover {
+  color: #118da8;
+  border: 5px solid #118da8;
+  background-color: white;
+}
+.card2 {
+  width: 1300px;
+  height: 512px;
+  padding: 40px 53px 40px 40px;
+  background: #000000;
+  border-radius: 32px;
+  display: flex;
+  gap: 53px;
+  margin-bottom: 60px;
+}
+.card2 img {
+  width: 389px;
+  height: 432px;
+}
+.words2 p:nth-child(1) {
+  width: 136px;
+  height: 27px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #191919;
+  border-radius: 6px;
+}
+.words2 p:nth-child(2) {
+  width: 82px;
+  height: 27px;
+  margin-top: 48px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #118da8;
+}
+.words2 p:nth-child(3) {
+  width: 686px;
+  height: 141px;
+  margin-top: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+
+  letter-spacing: 2.56px;
+
+  color: #ffffff;
+}
+.words2 p:nth-child(4) {
+  width: 803px;
+  height: 99px;
+  margin-top: 28px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.words2 p:nth-child(5) {
+  width: 208px;
+  height: 51px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #118da8;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.words2 p:nth-child(5):hover {
+  color: #118da8;
+  border: 5px solid #118da8;
+  background-color: white;
+}
+
+.card3 {
+  width: 1300px;
+  height: 512px;
+  padding: 40px 53px 40px 40px;
+  background: #000000;
+  border-radius: 32px;
+  display: flex;
+  gap: 53px;
+  margin-bottom: 60px;
+}
+
+.words3 p:nth-child(1) {
+  width: 73px;
+  height: 27px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #191919;
+  border-radius: 6px;
+}
+.words3 p:nth-child(2) {
+  width: 82px;
+  height: 27px;
+  margin-top: 48px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #118da8;
+}
+.words3 p:nth-child(3) {
+  width: 716px;
+  height: 141px;
+  margin-top: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+
+  letter-spacing: 2.56px;
+
+  color: #ffffff;
+}
+.words3 p:nth-child(4) {
+  width: 803px;
+  height: 99px;
+  margin-top: 28px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.words3 p:nth-child(5) {
+  width: 208px;
+  height: 51px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #118da8;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.words3 p:nth-child(5):hover {
+  color: #118da8;
+  border: 5px solid #118da8;
+  background-color: white;
+}
+.information img {
+  margin-top: 150px;
+}
+.information .p {
+  width: 136px;
+  height: 27px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 20px;
+
+  color: #118da8;
+}
+.name {
+  width: 526px;
+  height: 80px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+
+  letter-spacing: 2.88px;
+
+  color: #ffffff;
+}
+.information h3 {
+  width: 576px;
+  height: 66px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  margin-top: 28px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.information h4 {
+  width: 548px;
+  height: 66px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  margin-top: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.man2 {
+  width: 650px;
+  height: 743px;
+}
+.card4 {
+  display: flex;
+  gap: 84px;
+  margin-top: 260px;
+}
+.sign-up {
+  position: relative;
+  display: flex;
+  gap: 227px;
+  width: 1300px;
+  height: 387px;
+  background: #000000;
+  border-radius: 32px;
+  margin-top: 201px;
+  margin: 201px auto;
+}
+.check-in {
+  margin-bottom: 60px;
+}
+.footer-image {
+  width: 147px;
+  height: 91px;
+  position: absolute;
+  bottom: -34px;
+  left: -30px;
+}
+.card-text p:nth-child(1) {
+  width: 149px;
+  height: 27px;
+  padding-top: 59px;
+  margin-left: 60px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #118da8;
+}
+.card-text p:nth-child(2) {
+  width: 441px;
+  height: 159px;
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 79px;
+  margin-left: 60px;
+
+  letter-spacing: 2.88px;
+
+  color: #ffffff;
+}
+input {
+  display: block;
+}
+form input:nth-child(1) {
+  width: 522px;
+  height: 82px;
+  margin-top: 60px;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 19px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+form input:nth-child(2) {
+  width: 522px;
+  height: 82px;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 19px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+button {
+  width: 87px;
+  height: 48px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+  background: #118da8;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+button:hover {
+  color: #118da8;
+  background-color: #ffffff;
+  border-radius: 5px #118da8;
+}
+.footer-part1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.first-card {
+  width: 423px;
+  height: 321px;
+  background: #000000;
+  border-radius: 32px;
+}
+.first-card img {
+  margin-top: 54px;
+}
+.first-card img:nth-child(1) {
+  margin-left: 50px;
+}
+.first-card h5 {
+  width: 393px;
+  height: 130px;
+  padding-top: 21px;
+  padding-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.Name {
+  width: 142px;
+  height: 29px;
+  margin-top: 33px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.second-card {
+  width: 423px;
+  height: 321px;
+  background: #000000;
+  border-radius: 32px;
+}
+.second-card img {
+  margin-top: 54px;
+}
+.second-card img:nth-child(1) {
+  margin-left: 50px;
+}
+.second-card h5 {
+  width: 373px;
+  height: 130px;
+  padding-top: 21px;
+  padding-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.Name2 {
+  width: 162px;
+  height: 29px;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.Name3 {
+  width: 172px;
+  height: 29px;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.Name3 {
+  width: 172px;
+  height: 29px;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.Name3 {
+  width: 172px;
+  height: 29px;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.Name4 {
+  width: 182px;
+  height: 29px;
+  margin-top: -10px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.fifth-card {
+  width: 423px;
+  height: 364px;
+  background: #000000;
+  border-radius: 32px;
+}
+.fifth-card img {
+  margin-top: 54px;
+}
+.fifth-card img:nth-child(1) {
+  margin-left: 50px;
+}
+.second-card img:nth-child(1) {
+  margin-left: 50px;
+}
+.fifth-card h5 {
+  width: 383px;
+  height: 130px;
+  padding-top: 21px;
+  padding-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.sixth-card {
+  width: 423px;
+  height: 364px;
+  background: #000000;
+  border-radius: 32px;
+}
+.sixth-card img {
+  margin-top: 54px;
+}
+.sixth-card img:nth-child(1) {
+  margin-left: 50px;
+}
+.sixth-card h5 {
+  width: 393px;
+  height: 173px;
+  padding-top: 21px;
+  padding-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.Name6 {
+  width: 182px;
+  height: 29px;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.fourth-card {
+  width: 423px;
+  height: 364px;
+  background: #000000;
+  border-radius: 32px;
+}
+.fourth-card h5 {
+  width: 393px;
+  height: 173px;
+  padding-top: 21px;
+  padding-left: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.fourth-card img {
+  margin-top: 54px;
+}
+.fourth-card img:nth-child(1) {
+  margin-left: 50px;
+}
+.first img:nth-child(1) {
+  width: 223px;
+  height: 45px;
+  margin-top: 200px;
+  display: flex;
+}
+.first img:nth-child(2) {
+  width: 24px;
+  height: 24px;
+  margin-right: 11px;
+  margin-top: 25px;
+}
+.first img:nth-child(3) {
+  width: 22px;
+  height: 17px;
+  margin-top: 25px;
+  margin-right: 18px;
+}
+.first img:nth-child(4) {
+  width: 20px;
+  height: 20px;
+}
+.footer {
+  display: flex;
+}
+.second {
+  margin-top: 199px;
+  margin-left: 239px;
+}
+.second p {
+  margin-bottom: 10px;
+}
+.second p:nth-child(1) {
+  height: 27px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.second p:nth-child(2) {
+  height: 27px;
+  width: 51px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.second p:nth-child(3) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.second p:nth-child(4) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.third {
+  margin-top: 199px;
+  margin-left: 120px;
+}
+.third p {
+  margin-bottom: 10px;
+}
+.third p:nth-child(1) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.third p:nth-child(2) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.third p:nth-child(3) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.third p:nth-child(4) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.third p:nth-child(5) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.third p:nth-child(6) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.fourth {
+  margin-top: 200px;
+  margin-left: 21px;
+}
+.fourth img {
+  margin-right: 17px;
+}
